@@ -9,7 +9,7 @@ import Home from "./components/Home/Home";
 
 const App =() => (
     <BrowserRouter>
-     <Container maxWidth="lg">
+     <Container maxWidth="xl">
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home/>} />

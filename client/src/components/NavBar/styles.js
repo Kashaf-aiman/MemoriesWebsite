@@ -12,8 +12,9 @@ export default makeStyles((theme) => ({
     padding: '10px 50px',
   },
   heading: {
-    color: '#C87575',
+    color: '#F04848',
     textDecoration: 'none',
+    fontFamily:'cursive',
   },
   image: {
     marginLeft: '15px',
@@ -26,7 +27,7 @@ export default makeStyles((theme) => ({
   profile: {
     display: 'flex',
     justifyContent: 'space-between',
-    width: '400px',
+    width: '300px',
   },
   userName: {
     display: 'flex',
