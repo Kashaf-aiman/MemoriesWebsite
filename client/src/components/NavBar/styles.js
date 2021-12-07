@@ -17,7 +17,8 @@ export default makeStyles((theme) => ({
     fontFamily:'cursive',
   },
   image: {
-    marginLeft: '15px',
+    marginLeft: '10px',
+    marginTop: '5px',
   },
   toolbar: {
     display: 'flex',
