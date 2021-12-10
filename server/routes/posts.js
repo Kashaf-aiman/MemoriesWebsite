@@ -6,6 +6,7 @@ const router = express.Router();
 import auth from "../middleware/auth.js";
 
 router.get('/search', getPostsBySearch);
+router.get('/:id',getPost)
 router.get('/', getPosts);
 router.post('/',auth,  createPost);
 router.patch('/:id', auth, updatePost);
